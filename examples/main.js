@@ -13,11 +13,15 @@ require.config({
 require(["jquery", "jquery.autofocus"], function ($) {
     $(function () {
         $(".input").on("click", function () {
-            $("<label>Added input: <input type=\"text\" autofocus=\"autofocus\"/></label>").insertAfter("label:last-of-type").autofocus();
+            $("<label>Added input: <input type=\"text\" autofocus=\"autofocus\"/></label>")
+                .insertAfter("label:last-of-type")
+                .autofocus();
         });
 
         $(".textarea").on("click", function () {
-            $("<label>Added textarea: <textarea autofocus=\"autofocus\"/></textarea></label>").insertAfter("label:last-of-type").autofocus();
+            $("<label>Added textarea: <textarea autofocus=\"autofocus\"/></textarea></label>")
+                .insertAfter("label:last-of-type")
+                .autofocus();
         });
     });
 });
