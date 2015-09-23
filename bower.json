@@ -2,8 +2,8 @@
   "name": "zicher-jquery-autofocus",
   "version": "1.0.0",
   "authors": [
-    "Zicher <info@zicher.eu>",
-    "TomaszKotlarek <tomasz.kotlarek@zicher.eu>"
+    {"name": "Zicher", "email": "info@zicher.eu", "homepage": "http://zicher.eu"},
+    {"name": "Tomasz Kotlarek", "email": "tomasz.kotlarek@zicher.eu", "homepage": "http://zicher.eu"}
   ],
   "description": "Autofocus on inputs having \"autofocus\" attribute after DOM manipulation",
   "main": "dist/jquery-autofocus.js",
@@ -11,6 +11,7 @@
     "amd"
   ],
   "keywords": [
+    "zicher",
     "jquery",
     "plugin",
     "autofocus"
@@ -29,6 +30,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TomaszKotlarek/project.git"
+    "url": "git://github.com/zicher-eu/zicher-jquery-autofocus.git"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.20"
   }
 }

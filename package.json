@@ -1,0 +1,44 @@
+{
+  "name": "zicher-jquery-autofocus",
+  "version": "1.0.0",
+  "description": "Autofocus on inputs having \"autofocus\" attribute after DOM manipulation",
+  "main": "Gruntfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "grunt-requirejs": "^0.4.2",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zicher-eu/zicher-jquery-autofocus.git"
+  },
+  "keywords": [
+    "zicher",
+    "jquery",
+    "plugin",
+    "autofocus"
+  ],
+  "author": {
+    "name": "Zicher",
+    "email": "info@zicher.eu",
+    "url": "http://zicher.eu"
+  },
+  "contributors": [
+    {
+      "name": "Tomasz Kotlarek",
+      "email": "tomasz.kotlarek@zicher.eu",
+      "url": "http://zicher.eu"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zicher-eu/zicher-jquery-autofocus/issues"
+  },
+  "homepage": "https://github.com/zicher-eu/zicher-jquery-autofocus#readme"
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<button class="input">Add input</button>
+<button class="textarea">Add textarea</button>
+
+<form>
+    <label>
+        Example input 1:
+        <input type="text" placeholder="Enter text..."/>
+    </label>
+    <label>
+        Example input 2:
+        <input type="text" autofocus="autofocus" placeholder="Enter text..."/>
+    </label>
+</form>
+
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../dist/jquery.autofocus.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".input").on("click", function () {
+            $("<label>Added input: <input type=\"text\" autofocus=\"autofocus\"/></label>").insertAfter("label:last-of-type").autofocus();
+        });
+
+        $(".textarea").on("click", function () {
+            $("<label>Added textarea: <textarea autofocus=\"autofocus\"/></textarea></label>").insertAfter("label:last-of-type").autofocus();
+        });
+    });
+</script>
+</body>
+</html>
