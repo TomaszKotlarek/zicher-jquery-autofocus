@@ -6,7 +6,7 @@
     {"name": "Tomasz Kotlarek", "email": "tomasz.kotlarek@zicher.eu", "homepage": "http://zicher.eu"}
   ],
   "description": "Autofocus on inputs having \"autofocus\" attribute after DOM manipulation",
-  "main": "dist/jquery-autofocus.js",
+  "main": "dist/jquery-autofocus.min.js",
   "moduleType": [
     "amd"
   ],
