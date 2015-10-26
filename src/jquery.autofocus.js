@@ -2,15 +2,18 @@
  * Created by Frost on 2015-09-19.
  */
 
-(function (factory) {
+(function (root, factory) {
     if (typeof define === "function" && define.amd) {
         // AMD. Register as an anonymous module.
         define(["jquery"], factory);
+    } else if (typeof exports === "object") {
+        // Node, CommonJS-like
+        module.exports = factory(require("jquery"));
     } else {
-        // Browser globals
-        factory(jQuery);
+        // Browser globals (root is window)
+        root.returnExports = factory(root.jQuery);
     }
-}(function ($) {
+}(this, function ($) {
     /**
      *
      * @type {{autofocus: Function}}
