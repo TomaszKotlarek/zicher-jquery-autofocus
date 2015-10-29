@@ -34,6 +34,7 @@
             }
 
             // TODO: figure why sometimes there is need to delay focusing
+            // when there is a lot of dom in $target, but still why
             /* setTimeout(function () {
                 $autofocus.focus();
             }, 300); */
