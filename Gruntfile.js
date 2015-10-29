@@ -35,6 +35,5 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-requirejs');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+    require('load-grunt-tasks')(grunt);
 };

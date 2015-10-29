@@ -16,11 +16,11 @@ Get the `jquery.autofocus.min.js` from `dist` catalogue.
 
 ### RequireJS
 
-Add `jquery.autofocus` to `paths` section of configuration.
+Add `jquery.autofocus.min` to `paths` section of configuration.
 
 ### Manual
 
-`<script type="text/javascript" src="jquery.autofocus.min.js"></script>`
+`<script src="jquery.autofocus.min.js"></script>`
 
 ## Example
 

@@ -5,8 +5,13 @@
 require.config({
     baseUrl: "",
     paths: {
-        "jquery": "../bower_components/jquery/dist/jquery.min",
+        "jquery": "//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js",
         "jquery.autofocus": "../dist/jquery.autofocus.min"
+    },
+    shim: {
+        "jquery.autofocus": {
+            deps: ["jquery"]
+        }
     }
 });
 
